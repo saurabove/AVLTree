@@ -5,16 +5,14 @@
 ///////////////////////////////////  AVL Tree insertion - O(log(n))  //////////////////////////////
 
 class Node {
-			int val, height; // each node has value and height
-			Node left, right; //for rotation purpose
+		int val, height; // each node has value and height
+		Node left, right; //for child/sub trees
 
-
-			Node( int myval){
+		Node( int myval){
 				val =myval;
 				height=1;
 			}
-
-	    }
+}
 
 class AVL {
 
